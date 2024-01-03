@@ -1,3 +1,5 @@
+package com.whiteKnightz.variables
+
 import java.math.BigDecimal
 import java.util.*
 

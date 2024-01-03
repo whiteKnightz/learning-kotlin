@@ -1,3 +1,5 @@
+package com.whiteKnightz.variables
+
 var name: String? = null
 
 fun main() {
@@ -44,5 +46,5 @@ private fun printNameWithWhile() {
 }
 
 private fun modifyName(nameVal: String){
-    name=nameVal
+    name =nameVal
 }
