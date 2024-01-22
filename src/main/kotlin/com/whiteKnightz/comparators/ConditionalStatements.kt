@@ -51,6 +51,16 @@ class Customer(val id: Long,
             return if (dateOfBirth.get(Calendar.DAY_OF_YEAR)>=today.get(Calendar.DAY_OF_YEAR)) years-1 else years
         }
     }
+
+    override fun toString(): String {
+        return "$title $firstName $lastName"
+    }
+
+    operator fun component1() = id
+    operator fun component2() = title
+    operator fun component3() = firstName
+    operator fun component4() = lastName
+    operator fun component5() = dateOfBirth
 }
 fun main() {
 
