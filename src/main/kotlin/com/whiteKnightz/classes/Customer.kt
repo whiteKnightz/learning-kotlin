@@ -46,6 +46,7 @@ data class AnotherAlternativeCustomer(val name: String,
     }
 
     companion object{
+        @JvmStatic
         fun getInstance() = AnotherAlternativeCustomer(name = "Jack", address = "Hamilton, ON, Canada", age = 25)
     }
 }
